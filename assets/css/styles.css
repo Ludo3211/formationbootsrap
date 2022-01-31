@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap");
+
+.redressed {
+  font-family: "Redressed", cursive;
+}
+
+.merriweather {
+  font-family: "merriweather", serif;
+}
+
+.cc-navbar {
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family: "Merriweather", serif;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+  z-index: 99;
+}
+
+.cc-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+  padding-bottom: 20px;
+  border-bottom-color: var(--bs-teal);
+}
+
+.banner, .order-form {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/pexels-pixabay-260922.jpg);
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order-form {
+  height: 500px;
+}
+
+.banner-desc {
+  font-size: 48px;
+  font-weight: 400;
+  color: white;
+}
+
+.cc-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/pexels-chan-walrus-941861.jpg);
+  height: 1400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+  color: white;
+  background-color: var(--bs-teal);
+}
